@@ -1,3 +1,18 @@
 <resources>
+
     <string name="app_name">MVP Learning</string>
+    <string name="app_version">v1.0</string>
+    <string name="password">Password</string>
+    <string name="please_enter_username_password">Please Enter UserName Password</string>
+    <string name="login">LOGIN</string>
+    <string name="user_name">User Name</string>
+
+    <!-- Use For Login  Activity-->
+
+    <string name="user_name_st">user</string>
+    <string name="user_password_st">123456</string>
+    <string name="login_preference">com.techtwice.foodappnassir.login_preference</string>
+    <string name="login_status_preference">com.techtwice.foodappnassir.login_status_preference</string>
+    <string name="welcome">Welcome MVP</string>
+
 </resources>
