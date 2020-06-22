@@ -15,5 +15,9 @@
     <string name="login_status_preference">com.example.mvplearning.login_status_preference</string>
     <string name="welcome">Welcome MVP</string>
     <string name="sign_up">Sign Up</string>
+    <string name="search">Search</string>
+    <string name="share">Share</string>
+    <string name="log_out">Log Out</string>
+    <string name="setting">Setting</string>
 
 </resources>
