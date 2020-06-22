@@ -20,6 +20,7 @@ class SignInActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.activity_sign_in)
         preferenceConfig = SharedPreferenceLogin(this)
         btSignin.setOnClickListener(this)
+        btSignUp.setOnClickListener(this)
 
         if (preferenceConfig!!.readLoginStatus()) {
             startActivity(Intent(this, HomeActivity::class.java))
@@ -48,7 +49,12 @@ class SignInActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(view: View?) {
         val btSelect = view as Button
         when (btSelect.id) {
-            R.id.btSignin -> userLogin()
+            R.id.btSignin -> {
+                userLogin()
+            }
+            R.id.btSignUp -> {
+                startActivity(Intent(this, SignUpActivity::class.java))
+            }
         }
     }
 
